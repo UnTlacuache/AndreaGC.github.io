@@ -585,5 +585,17 @@ button:hover .star-6 {
 }
 
 .carousel {
-  margin: 50px;
+  margin: 30px;
+}
+
+.btn-primary {
+  border: solid 1px #fec1958c;
+  background-color: #fec195;
+}
+
+.btn-primary:focus,
+.btn-primary:hover {
+  box-shadow: none;
+  border: solid 1px #fec195;
+  background-color: #fec1958c;
 }
