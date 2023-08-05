@@ -11,19 +11,53 @@
       crossorigin="anonymous"
     />
     <link rel="stylesheet" href="style.css" />
+    <script defer src="./main.js"></script>
   </head>
   <body>
-    <header>
+    <header class="container">
       <div class="wrapper">
-        <h1>Opossum<span class="color">.</span></h1>
-        <nav>
-          <ul>
-            <li><a href="#">Home</a></li>
-            <li><a href="https://github.com/UnTlacuache">Portfolio</a></li>
-            <li>
-              <a href="https://www.facebook.com/persephone1694/">Contact</a>
-            </li>
-          </ul>
+        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+          <div class="container-fluid">
+            <img
+              src="./Imagenes/updowntlacu.gif"
+              alt="tlacu-up-down"
+              width="200px"
+              height="200px"
+            />
+            <h1>Opossum<span class="color">.</span></h1>
+            <button
+              class="navbar-toggler"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#navbarText"
+              aria-controls="navbarText"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarText">
+              <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="#"
+                    >Home</a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="https://github.com/UnTlacuache"
+                    >Portafolio</a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a
+                    class="nav-link"
+                    href="https://www.facebook.com/persephone1694/"
+                    >Contacto</a
+                  >
+                </li>
+              </ul>
+            </div>
+          </div>
         </nav>
       </div>
     </header>
@@ -229,6 +263,15 @@
                 Esta especie vive desde el Cretácico Superior y en la actualidad
                 existen 92 especies de mamiferos de la orden Didelphimorphia.
               </p>
+              <div>
+                <button
+                  onclick='muestra_oculta("feature-1")'
+                  class="btn btn-primary"
+                  form="feature-1"
+                >
+                  ♥
+                </button>
+              </div>
             </li>
             <li class="feature-2">
               <h4>Distinciones</h4>
@@ -236,6 +279,15 @@
                 Entre ellas se encuentra su largo hocico, su cráneo oblongo y
                 dientes poco especializados.
               </p>
+              <div>
+                <button
+                  onclick='muestra_oculta("feature-2")'
+                  class="btn btn-primary"
+                  form="feature-2"
+                >
+                  ♥
+                </button>
+              </div>
             </li>
             <li class="feature-3">
               <h4>Características</h4>
@@ -244,6 +296,15 @@
                 uña, además de tener una cola prensil que los ayuda a
                 desplazarse.
               </p>
+              <div>
+                <button
+                  onclick='muestra_oculta("feature-3")'
+                  class="btn btn-primary"
+                  form="feature-3"
+                >
+                  ♥
+                </button>
+              </div>
             </li>
             <div class="clear"></div>
           </ul>
@@ -500,4 +561,3 @@
     ></script>
   </body>
 </html>
-
