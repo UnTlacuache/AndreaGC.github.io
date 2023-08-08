@@ -72,7 +72,7 @@ h6 {
 
 a {
   text-decoration: none;
-  color: #444;
+  color: #58d68d;
 }
 a:hover {
   color: #58d68d;
@@ -127,6 +127,14 @@ header nav ul li a {
   display: block;
   margin-right: 20px;
 }
+
+#corazones {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+}
+
 #tlacu-image {
   width: 100%;
   height: 580px;
