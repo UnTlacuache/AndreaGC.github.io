@@ -23,7 +23,7 @@ h1 {
   font-family: "Lumanosimo", cursive;
   font-weight: bold;
   color: #444;
-  font-size: 70px;
+  font-size: 60px;
   margin-bottom: 20px;
 }
 h2 {
@@ -70,13 +70,6 @@ h6 {
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
 }
 
-a {
-  text-decoration: none;
-  color: #58d68d;
-}
-a:hover {
-  color: #58d68d;
-}
 strong {
   font-weight: bold;
 }
@@ -102,19 +95,6 @@ small {
   align-items: center;
 }
 
-header {
-  height: 120px;
-}
-header h1 {
-  float: left;
-  margin-top: 32px;
-}
-header h1 .color {
-  color: #58d68d;
-}
-header nav {
-  float: right;
-}
 header nav ul li {
   display: inline-block;
   margin-top: 50px;
